@@ -1,0 +1,6 @@
+CustomerID,Name,Age,Gender,Balance,AccountType
+1,John Doe,25,Male,1500.0,Checking
+2,Jane Smith,39,Female,-500.0,Savings
+3,Emily Davis,-1,,2500.0,Checking
+4,,45,Male,3000.0,Savings
+5,Chris Brown,102,Female,,Checking

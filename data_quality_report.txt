@@ -1,0 +1,33 @@
+Data Quality Report
+====================
+
+Missing Values:
+CustomerID     0
+Name           1
+Age            0
+Gender         1
+Balance        1
+AccountType    0
+
+Invalid Ages:
+   CustomerID         Name  Age  Gender  Balance AccountType
+2           3  Emily Davis   -1     NaN   2500.0    Checking
+4           5  Chris Brown  102  Female      NaN    Checking
+
+Negative Balances:
+   CustomerID        Name  Age  Gender  Balance AccountType
+1           2  Jane Smith   39  Female   -500.0     Savings
+
+Summary Statistics:
+        CustomerID      Name         Age Gender      Balance AccountType
+count     5.000000         4    5.000000      4     4.000000           5
+unique         NaN         4         NaN      2          NaN           2
+top            NaN  John Doe         NaN   Male          NaN    Checking
+freq           NaN         1         NaN      2          NaN           3
+mean      3.000000       NaN   42.000000    NaN  1625.000000         NaN
+std       1.581139       NaN   37.934153    NaN  1547.847968         NaN
+min       1.000000       NaN   -1.000000    NaN  -500.000000         NaN
+25%       2.000000       NaN   25.000000    NaN  1000.000000         NaN
+50%       3.000000       NaN   39.000000    NaN  2000.000000         NaN
+75%       4.000000       NaN   45.000000    NaN  2625.000000         NaN
+max       5.000000       NaN  102.000000    NaN  3000.000000         NaN
